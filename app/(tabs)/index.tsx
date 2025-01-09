@@ -81,7 +81,7 @@ import { Link } from 'expo-router'
 const index = () => {
   return (
     <View className='flex-1 items-center justify-center'>
-      <Text className='text-4xl'>Aora!</Text>
+      <Text className='text-4xl font-pbold'>Aora!</Text>
       <Link href="/profile" style={{ color: 'gray' }}>Go to Profile</Link>
     </View>
   )
