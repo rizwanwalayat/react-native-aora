@@ -82,7 +82,7 @@ const index = () => {
   return (
     <View className='flex-1 items-center justify-center'>
       <Text className='text-4xl font-pbold'>Aora!</Text>
-      <Link href="/profile" style={{ color: 'gray' }}>Go to Profile</Link>
+      <Link href="/home" style={{ color: 'gray' }}>Go to Home</Link>
     </View>
   )
 }
